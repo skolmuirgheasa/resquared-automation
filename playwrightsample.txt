@@ -1,0 +1,104 @@
+
+Record
+
+
+
+
+
+
+
+
+
+Target:
+
+Test Runner
+
+
+1
+import { test, expect } from '@playwright/test';
+2
+​
+3
+test('test', async ({ page }) => {
+4
+  await page.goto('https://re2recruit.com/');
+5
+  await page.getByRole('textbox', { name: 'Email' }).click();
+6
+  await page.getByRole('textbox', { name: 'Email' }).fill('griffin@re2.ai');
+7
+  await page.getByRole('textbox', { name: 'Email' }).press('Tab');
+8
+  await page.getByRole('textbox', { name: 'Password' }).fill('Resquared');
+9
+  await page.getByRole('button', { name: 'Log in' }).click();
+10
+  await page.locator('section div').filter({ hasText: /^Search$/ }).click();
+11
+  await page.getByRole('textbox', { name: 'Search' }).click();
+12
+  await page.getByRole('textbox', { name: 'Search' }).fill('hvac');
+13
+  await page.getByRole('textbox', { name: 'Search' }).press('Enter');
+14
+  await page.getByText('Contact Info', { exact: true }).click();
+15
+  await page.locator('section div').filter({ hasText: /^Email$/ }).getByRole('img').first().click();
+16
+  await page.locator('.checkbox-square').click();
+17
+  await page.getByRole('radio', { name: '400' }).check();
+18
+  await page.getByRole('button', { name: 'Apply selection' }).click();
+19
+  await page.getByText('Create a New List').click();
+20
+  await page.locator('#save-to-list-input-name').fill('hvac ai sample list');
+21
+  await page.locator('#save-to-list-input-name').press('Enter');
+22
+  await page.getByText('Sequences').click();
+23
+  await page.getByText('Businesses41Active38Open').click();
+24
+  await page.locator('div').filter({ hasText: /^New sequence$/ }).getByRole('button').click();
+25
+  await page.getByRole('button', { name: 'Start from scratch' }).click();
+26
+  await page.locator('#subject-editor').click();
+27
+  await page.locator('#subject-editor').press('ControlOrMeta+a');
+28
+  await page.locator('#subject-editor').fill('sample');
+29
+  await page.getByText('This is the new template').click();
+30
+  await page.getByRole('textbox').filter({ hasText: 'This is the new template' }).press('ControlOrMeta+a');
+31
+  await page.getByRole('textbox').filter({ hasText: 'This is the new template' }).fill('sample body ');
+32
+  await page.getByRole('button', { name: 'Add a step' }).click();
+33
+  await page.locator('#subject-editor').click();
+34
+  await page.locator('#subject-editor').fill('second emails subject');
+35
+  await page.locator('div').filter({ hasText: /^Your message\.\.\.$/ }).nth(1).click();
+36
+  await page.locator('div').filter({ hasText: /^Your message\.\.\.$/ }).nth(1).click();
+37
+  await page.locator('#email-editor').first().click();
+38
+  await page.locator('#email-editor').first().fill('body 2');
+39
+  await page.getByRole('button', { name: 'Next' }).click();
+40
+  await page.getByRole('textbox', { name: 'Search a list' }).click();
+41
+  await page.getByRole('textbox', { name: 'Search a list' }).fill('hvac');
+42
+  await page.getByRole('button').filter({ hasText: /^$/ }).nth(2).click();
+43
+  await page.getByRole('button', { name: 'Review' }).click();
+44
+});

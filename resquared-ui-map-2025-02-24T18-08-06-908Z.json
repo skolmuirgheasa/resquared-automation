@@ -1,0 +1,943 @@
+{
+  "navigation": [],
+  "mainContent": [],
+  "interactiveElements": [
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-logo-wrapper"
+      ],
+      "text": "",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/search-businesses",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > a.navbar-logo-wrapper",
+      "rect": {
+        "x": 0,
+        "y": 40,
+        "width": 55,
+        "height": 32,
+        "top": 40,
+        "right": 55,
+        "bottom": 72,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Search",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/search-businesses",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(1)",
+      "rect": {
+        "x": 0,
+        "y": 138,
+        "width": 55,
+        "height": 0,
+        "top": 138,
+        "right": 55,
+        "bottom": 138,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Lists",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/lists",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(2)",
+      "rect": {
+        "x": 0,
+        "y": 191,
+        "width": 55,
+        "height": 0,
+        "top": 191,
+        "right": 55,
+        "bottom": 191,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Sequences",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/sequences",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(3)",
+      "rect": {
+        "x": 0,
+        "y": 244,
+        "width": 55,
+        "height": 0,
+        "top": 244,
+        "right": 55,
+        "bottom": 244,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Com. Center",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/communication-center",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(4)",
+      "rect": {
+        "x": 0,
+        "y": 297,
+        "width": 55,
+        "height": 0,
+        "top": 297,
+        "right": 55,
+        "bottom": 297,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Scheduled Emails",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/scheduled-emails",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(5)",
+      "rect": {
+        "x": 0,
+        "y": 350,
+        "width": 55,
+        "height": 0,
+        "top": 350,
+        "right": 55,
+        "bottom": 350,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Activity Reports",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/activity-reports",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(6)",
+      "rect": {
+        "x": 0,
+        "y": 403,
+        "width": 55,
+        "height": 0,
+        "top": 403,
+        "right": 55,
+        "bottom": 403,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Demand Reports",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://re2recruit.com/demand-reports",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(7)",
+      "rect": {
+        "x": 0,
+        "y": 456,
+        "width": 55,
+        "height": 0,
+        "top": 456,
+        "right": 55,
+        "bottom": 456,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "a",
+      "id": "",
+      "classes": [
+        "navbar-item"
+      ],
+      "text": "Knowledge Base",
+      "type": "",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "href": "https://learn.re2.ai/",
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-items:nth-of-type(2) > a.navbar-item:nth-of-type(8)",
+      "rect": {
+        "x": 0,
+        "y": 509,
+        "width": 55,
+        "height": 0,
+        "top": 509,
+        "right": 55,
+        "bottom": 509,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-items"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "navbar-add-user-button"
+      ],
+      "text": "Reset Password",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-item.profile:nth-of-type(3) > div.navbar-item-content > div.navbar-item-profile-menu-dropdown > div.navbar-item-profile-menu-dropdown-item:nth-of-type(1) > button.navbar-add-user-button",
+      "rect": {
+        "x": 136,
+        "y": 689,
+        "width": 111.1875,
+        "height": 0,
+        "top": 689,
+        "right": 247.1875,
+        "bottom": 689,
+        "left": 136
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-item-profile-menu-dropdown-item"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "navbar-add-user-button"
+      ],
+      "text": "Two-Factor Auth",
+      "type": "submit",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-item.profile:nth-of-type(3) > div.navbar-item-content > div.navbar-item-profile-menu-dropdown > div.navbar-item-profile-menu-dropdown-item:nth-of-type(2) > button.navbar-add-user-button",
+      "rect": {
+        "x": 136,
+        "y": 689,
+        "width": 117.453125,
+        "height": 0,
+        "top": 689,
+        "right": 253.453125,
+        "bottom": 689,
+        "left": 136
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-item-profile-menu-dropdown-item"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "navbar-add-user-button"
+      ],
+      "text": "Add a New User",
+      "type": "submit",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-item.profile:nth-of-type(3) > div.navbar-item-content > div.navbar-item-profile-menu-dropdown > div.navbar-item-profile-menu-dropdown-item:nth-of-type(3) > button.navbar-add-user-button",
+      "rect": {
+        "x": 136,
+        "y": 689,
+        "width": 108.9375,
+        "height": 0,
+        "top": 689,
+        "right": 244.9375,
+        "bottom": 689,
+        "left": 136
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-item-profile-menu-dropdown-item"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "navbar-add-crm-bcc-button"
+      ],
+      "text": "Add CRM Bcc",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.navbar:nth-of-type(1) > div.navbar-item.profile:nth-of-type(3) > div.navbar-item-content > div.navbar-item-profile-menu-dropdown > div.navbar-item-profile-menu-dropdown-item:nth-of-type(4) > button.navbar-add-crm-bcc-button",
+      "rect": {
+        "x": 136,
+        "y": 689,
+        "width": 91.671875,
+        "height": 0,
+        "top": 689,
+        "right": 227.671875,
+        "bottom": 689,
+        "left": 136
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "navbar-item-profile-menu-dropdown-item"
+        ]
+      }
+    },
+    {
+      "tag": "input",
+      "id": "",
+      "classes": [
+        "search-tab-filters-list-item-dropdown-search-bar-input"
+      ],
+      "text": "",
+      "type": "text",
+      "role": null,
+      "placeholder": "Search",
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.savedSearchScroll.relative.flex.h-full.grow.flex-col.overflow-hidden.overflow-y-auto.pb-16:nth-of-type(2) > section.absolute.left-0.top-0.h-full.w-full > div.search-tab > div.search-tab-filters-list:nth-of-type(2) > div.search-tab-filters-list-item:nth-of-type(1) > div.search-tab-filters-list-item-dropdown.search:nth-of-type(2) > div.search-tab-filters-list-item-dropdown-search-bar:nth-of-type(4) > input.search-tab-filters-list-item-dropdown-search-bar-input",
+      "rect": {
+        "x": 108,
+        "y": 302.5,
+        "width": 224,
+        "height": 0,
+        "top": 302.5,
+        "right": 332,
+        "bottom": 302.5,
+        "left": 108
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "search-tab-filters-list-item-dropdown-search-bar"
+        ]
+      }
+    },
+    {
+      "tag": "input",
+      "id": "",
+      "classes": [
+        "search-tab-filters-list-item-dropdown-search-bar-input"
+      ],
+      "text": "",
+      "type": "text",
+      "role": null,
+      "placeholder": "Enter target market address",
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.savedSearchScroll.relative.flex.h-full.grow.flex-col.overflow-hidden.overflow-y-auto.pb-16:nth-of-type(2) > section.absolute.left-0.top-0.h-full.w-full > div.search-tab > div.search-tab-filters-list:nth-of-type(2) > div.search-tab-filters-list-item.location-tab:nth-of-type(2) > div.search-tab-filters-list-item-dropdown:nth-of-type(2) > div.search-tab-filters-list-item-dropdown-search-bar:nth-of-type(3) > input.search-tab-filters-list-item-dropdown-search-bar-input",
+      "rect": {
+        "x": 108,
+        "y": 370,
+        "width": 224,
+        "height": 0,
+        "top": 370,
+        "right": 332,
+        "bottom": 370,
+        "left": 108
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "search-tab-filters-list-item-dropdown-search-bar"
+        ]
+      }
+    },
+    {
+      "tag": "input",
+      "id": "",
+      "classes": [
+        "h-[1.5rem]",
+        "w-full",
+        "rounded",
+        "p-2",
+        "text-left",
+        "font-barlow",
+        "text-[0.875rem]",
+        "font-normal",
+        "leading-[1.188rem]",
+        "ring-dm-grey",
+        "[appearance:textfield]",
+        "focus:bg-dm-white",
+        "focus:text-dm-black",
+        "focus:outline-none",
+        "[&::-webkit-inner-spin-button]:appearance-none",
+        "[&::-webkit-outer-spin-button]:appearance-none"
+      ],
+      "text": "",
+      "type": "number",
+      "role": null,
+      "placeholder": "Min",
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.savedSearchScroll.relative.flex.h-full.grow.flex-col.overflow-hidden.overflow-y-auto.pb-16:nth-of-type(2) > section.absolute.left-0.top-0.h-full.w-full > div.search-tab > div.search-tab-filters-list:nth-of-type(2) > div.search-tab-filters-list-item:nth-of-type(5) > div.search-tab-filters-list-item-dropdown:nth-of-type(2) > div.search-tab-filters-list-item-dropdown-filter-group:nth-of-type(6) > div.flex.w-full.flex-col.space-y-2 > div.flex.flex-row.gap-3:nth-of-type(1) > input.h-[1.5rem].w-full.rounded.p-2.text-left.font-barlow.text-[0.875rem].font-normal.leading-[1.188rem].ring-dm-grey.[appearance:textfield].focus:bg-dm-white.focus:text-dm-black.focus:outline-none.[&::-webkit-inner-spin-button]:appearance-none.[&::-webkit-outer-spin-button]:appearance-none:nth-of-type(1)",
+      "rect": {
+        "x": 108,
+        "y": 821.90625,
+        "width": 106,
+        "height": 0,
+        "top": 821.90625,
+        "right": 214,
+        "bottom": 821.90625,
+        "left": 108
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "flex",
+          "flex-row",
+          "gap-3"
+        ]
+      }
+    },
+    {
+      "tag": "input",
+      "id": "",
+      "classes": [
+        "h-[1.5rem]",
+        "w-full",
+        "rounded",
+        "p-2",
+        "text-left",
+        "font-barlow",
+        "text-[0.875rem]",
+        "font-normal",
+        "leading-[1.188rem]",
+        "ring-dm-grey",
+        "[appearance:textfield]",
+        "focus:bg-dm-white",
+        "focus:text-dm-black",
+        "focus:outline-none",
+        "[&::-webkit-inner-spin-button]:appearance-none",
+        "[&::-webkit-outer-spin-button]:appearance-none"
+      ],
+      "text": "",
+      "type": "number",
+      "role": null,
+      "placeholder": "Max",
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.savedSearchScroll.relative.flex.h-full.grow.flex-col.overflow-hidden.overflow-y-auto.pb-16:nth-of-type(2) > section.absolute.left-0.top-0.h-full.w-full > div.search-tab > div.search-tab-filters-list:nth-of-type(2) > div.search-tab-filters-list-item:nth-of-type(5) > div.search-tab-filters-list-item-dropdown:nth-of-type(2) > div.search-tab-filters-list-item-dropdown-filter-group:nth-of-type(6) > div.flex.w-full.flex-col.space-y-2 > div.flex.flex-row.gap-3:nth-of-type(1) > input.h-[1.5rem].w-full.rounded.p-2.text-left.font-barlow.text-[0.875rem].font-normal.leading-[1.188rem].ring-dm-grey.[appearance:textfield].focus:bg-dm-white.focus:text-dm-black.focus:outline-none.[&::-webkit-inner-spin-button]:appearance-none.[&::-webkit-outer-spin-button]:appearance-none:nth-of-type(2)",
+      "rect": {
+        "x": 226,
+        "y": 821.90625,
+        "width": 106,
+        "height": 0,
+        "top": 821.90625,
+        "right": 332,
+        "bottom": 821.90625,
+        "left": 226
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "flex",
+          "flex-row",
+          "gap-3"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "relative",
+        "flex",
+        "items-center",
+        "justify-center",
+        "font-semibold",
+        "bg-transparent",
+        "h-[32px]",
+        "text-sm",
+        "cursor-not-allowed",
+        "text-dm-strong-mid-grey",
+        "fill-dm-strong-mid-grey",
+        "focus-within:ring-2",
+        "active:ring-2",
+        "!ring-2",
+        "ring-dm-strong-mid-grey",
+        "ring-1",
+        "ring-inset",
+        "hover:ring-1",
+        "focus-visible:ring-1",
+        "rounded-[4px]",
+        "px-6",
+        "w-full"
+      ],
+      "text": "Apply",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.savedSearchScroll.relative.flex.h-full.grow.flex-col.overflow-hidden.overflow-y-auto.pb-16:nth-of-type(2) > section.absolute.left-0.top-0.h-full.w-full > div.search-tab > div.search-tab-filters-list:nth-of-type(2) > div.search-tab-filters-list-item:nth-of-type(5) > div.search-tab-filters-list-item-dropdown:nth-of-type(2) > div.search-tab-filters-list-item-dropdown-filter-group:nth-of-type(6) > div.flex.w-full.flex-col.space-y-2 > div.flex.flex-col.space-y-2:nth-of-type(2) > button.relative.flex.items-center.justify-center.font-semibold.bg-transparent.h-[32px].text-sm.cursor-not-allowed.text-dm-strong-mid-grey.fill-dm-strong-mid-grey.focus-within:ring-2.active:ring-2.!ring-2.ring-dm-strong-mid-grey.ring-1.ring-inset.hover:ring-1.focus-visible:ring-1.rounded-[4px].px-6.w-full",
+      "rect": {
+        "x": 108,
+        "y": 821.90625,
+        "width": 224,
+        "height": 0,
+        "top": 821.90625,
+        "right": 332,
+        "bottom": 821.90625,
+        "left": 108
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "flex",
+          "flex-col",
+          "space-y-2"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "relative",
+        "flex",
+        "items-center",
+        "justify-center",
+        "w-fit",
+        "font-semibold",
+        "bg-transparent",
+        "h-[32px]",
+        "text-sm",
+        "cursor-not-allowed",
+        "text-dm-strong-mid-grey",
+        "fill-dm-strong-mid-grey",
+        "focus-within:ring-2",
+        "active:ring-2",
+        "!ring-2",
+        "ring-dm-strong-mid-grey",
+        "ring-1",
+        "ring-inset",
+        "hover:ring-1",
+        "focus-visible:ring-1",
+        "rounded-[4px]",
+        "px-6"
+      ],
+      "text": "Save search",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-box:nth-of-type(1) > div.search-businesses-filter > div.search-businesses-save-search:nth-of-type(3) > button.relative.flex.items-center.justify-center.w-fit.font-semibold.bg-transparent.h-[32px].text-sm.cursor-not-allowed.text-dm-strong-mid-grey.fill-dm-strong-mid-grey.focus-within:ring-2.active:ring-2.!ring-2.ring-dm-strong-mid-grey.ring-1.ring-inset.hover:ring-1.focus-visible:ring-1.rounded-[4px].px-6",
+      "rect": {
+        "x": 158.84375,
+        "y": 672,
+        "width": 122.3125,
+        "height": 32,
+        "top": 672,
+        "right": 281.15625,
+        "bottom": 704,
+        "left": 158.84375
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "search-businesses-save-search"
+        ]
+      }
+    },
+    {
+      "tag": "input",
+      "id": "mySmartListInputLocation",
+      "classes": [
+        "w-full",
+        "search-input-smart-lists",
+        "text-white"
+      ],
+      "text": "",
+      "type": "text",
+      "role": null,
+      "placeholder": "Search your locations",
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.smart-lists-modal.smart-lists-modal-closed.smart-lists-modal-fade:nth-of-type(1) > div.smart-lists-modal-inner:nth-of-type(4) > div.smart-lists-modal-inner-right:nth-of-type(2) > div.smart-lists-modal-inner-right-page1 > #smart-lists-location-dropdown > div.smart-lists-search:nth-of-type(1) > #mySmartListInputLocation",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "smart-lists-search"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "smart-lists-modal-inner-right-next-button",
+        "disabled"
+      ],
+      "text": "Next",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.smart-lists-modal.smart-lists-modal-closed.smart-lists-modal-fade:nth-of-type(1) > div.smart-lists-modal-inner:nth-of-type(4) > div.smart-lists-modal-inner-right:nth-of-type(2) > div.smart-lists-modal-inner-right-page1 > button.smart-lists-modal-inner-right-next-button.disabled",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "smart-lists-modal-inner-right-page1"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "smart-lists-onboarding-modal-inner-left-button"
+      ],
+      "text": "Get Started",
+      "type": "submit",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.smart-lists-onboarding-modal.smart-lists-onboarding-modal-closed.smart-lists-onboarding-modal-fade:nth-of-type(2) > div.smart-lists-onboarding-modal-inner:nth-of-type(2) > div.smart-lists-onboarding-modal-inner-left > button.smart-lists-onboarding-modal-inner-left-button",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "smart-lists-onboarding-modal-inner-left"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "relative",
+        "flex",
+        "items-center",
+        "justify-center",
+        "w-fit",
+        "font-semibold",
+        "bg-transparent",
+        "h-[32px]",
+        "text-sm",
+        "ring-1",
+        "ring-inset",
+        "hover:ring-1",
+        "focus-visible:ring-1",
+        "active:ring-2",
+        "rounded-[4px]",
+        "ring-dm-gold",
+        "text-dm-gold",
+        "fill-dm-gold",
+        "hover:!bg-dm-gold",
+        "hover:text-dm-black1",
+        "hover:fill-dm-black1",
+        "focus-visible:bg-dm-gold",
+        "focus-visible:text-dm-black1",
+        "focus-visible:fill-dm-black1",
+        "active:fill-dm-black1",
+        "active:ring-dm-white",
+        "active:bg-dm-gold",
+        "active:text-dm-black1",
+        "px-4",
+        "smart-list-button"
+      ],
+      "text": "Smart List",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.search-businesses-filter-header:nth-of-type(3) > div.results-container.flex-grow.items-center:nth-of-type(2) > div.search-businesses-filter-header-buttons:nth-of-type(3) > button.relative.flex.items-center.justify-center.w-fit.font-semibold.bg-transparent.h-[32px].text-sm.ring-1.ring-inset.hover:ring-1.focus-visible:ring-1.active:ring-2.rounded-[4px].ring-dm-gold.text-dm-gold.fill-dm-gold.hover:!bg-dm-gold.hover:text-dm-black1.hover:fill-dm-black1.focus-visible:bg-dm-gold.focus-visible:text-dm-black1.focus-visible:fill-dm-black1.active:fill-dm-black1.active:ring-dm-white.active:bg-dm-gold.active:text-dm-black1.px-4.smart-list-button:nth-of-type(1)",
+      "rect": {
+        "x": 535.4375,
+        "y": 105,
+        "width": 122.3125,
+        "height": 32,
+        "top": 105,
+        "right": 657.75,
+        "bottom": 137,
+        "left": 535.4375
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "search-businesses-filter-header-buttons"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "relative",
+        "flex",
+        "items-center",
+        "justify-center",
+        "w-fit",
+        "font-semibold",
+        "h-[32px]",
+        "text-sm",
+        "cursor-not-allowed",
+        "fill-dm-strong-mid-grey",
+        "focus-within:ring-2",
+        "active:ring-2",
+        "!ring-2",
+        "bg-dm-strong-mid-grey",
+        "text-dm-black3.5",
+        "ring-dm-grey",
+        "ring-1",
+        "ring-inset",
+        "hover:ring-1",
+        "focus-visible:ring-1",
+        "rounded-[4px]",
+        "px-4"
+      ],
+      "text": "Save to List",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.search-businesses-filter-header:nth-of-type(3) > div.results-container.flex-grow.items-center:nth-of-type(2) > div.search-businesses-filter-header-buttons:nth-of-type(3) > button.relative.flex.items-center.justify-center.w-fit.font-semibold.h-[32px].text-sm.cursor-not-allowed.fill-dm-strong-mid-grey.focus-within:ring-2.active:ring-2.!ring-2.bg-dm-strong-mid-grey.text-dm-black3.5.ring-dm-grey.ring-1.ring-inset.hover:ring-1.focus-visible:ring-1.rounded-[4px].px-4:nth-of-type(2)",
+      "rect": {
+        "x": 673.75,
+        "y": 105,
+        "width": 125.78125,
+        "height": 32,
+        "top": 105,
+        "right": 799.53125,
+        "bottom": 137,
+        "left": 673.75
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "search-businesses-filter-header-buttons"
+        ]
+      }
+    },
+    {
+      "tag": "button",
+      "id": "",
+      "classes": [
+        "relative",
+        "flex",
+        "items-center",
+        "justify-center",
+        "w-fit",
+        "font-semibold",
+        "h-[32px]",
+        "text-sm",
+        "ring-1",
+        "ring-inset",
+        "hover:ring-1",
+        "focus-visible:ring-1",
+        "active:ring-2",
+        "active:ring-dm-white",
+        "rounded-[4px]",
+        "ring-dm-gold",
+        "bg-dm-gold",
+        "text-dm-black1",
+        "hover:bg-dm-gold-275",
+        "focus-visible:bg-dm-gold-275",
+        "active:bg-dm-gold",
+        "px-6"
+      ],
+      "text": "Reset Filters",
+      "type": "button",
+      "role": null,
+      "placeholder": null,
+      "ariaLabel": null,
+      "path": "root > div.flex.h-screen.w-screen:nth-of-type(2) > div.body-wrapper:nth-of-type(2) > div.search-businesses-div-redesign > div.search-businesses:nth-of-type(2) > div.search-businesses-content:nth-of-type(2) > div.search-businesses-main:nth-of-type(4) > div.no-results-container > div.no-results-bg-reset > div.text-and-button-reset > button.relative.flex.items-center.justify-center.w-fit.font-semibold.h-[32px].text-sm.ring-1.ring-inset.hover:ring-1.focus-visible:ring-1.active:ring-2.active:ring-dm-white.rounded-[4px].ring-dm-gold.bg-dm-gold.text-dm-black1.hover:bg-dm-gold-275.focus-visible:bg-dm-gold-275.active:bg-dm-gold.px-6",
+      "rect": {
+        "x": 760.046875,
+        "y": 515.5,
+        "width": 125.890625,
+        "height": 32,
+        "top": 515.5,
+        "right": 885.9375,
+        "bottom": 547.5,
+        "left": 760.046875
+      },
+      "isVisible": true,
+      "parent": {
+        "tag": "div",
+        "id": "",
+        "classes": [
+          "text-and-button-reset"
+        ]
+      }
+    }
+  ],
+  "forms": []
+}

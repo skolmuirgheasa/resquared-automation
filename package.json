@@ -1,0 +1,15 @@
+{
+  "name": "resquared-automation",
+  "version": "1.0.0",
+  "description": "Automated tool for creating business lists in Resquared",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hyperbrowser/sdk": "latest",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,210 @@
+<!-- File: public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Automation Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+        .status-running {
+            background-color: #f0f8ff;
+            border: 1px solid #add8e6;
+            display: block !important;
+        }
+        .status-success {
+            background-color: #f0fff0;
+            border: 1px solid #98FB98;
+            display: block !important;
+        }
+        .status-error {
+            background-color: #fff0f0;
+            border: 1px solid #FFB6C1;
+            display: block !important;
+        }
+        #results {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+        .step-item {
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .step-success {
+            background-color: #f0fff0;
+        }
+        .step-error {
+            background-color: #fff0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Campaign Automation Tool</h1>
+        <p>Enter your prompt to run a campaign using your SaaS tool</p>
+        
+        <div class="form-group">
+            <label for="saasUrl">SaaS Tool URL:</label>
+            <input type="text" id="saasUrl" placeholder="https://yoursaastool.com" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="saasUsername">Username/Email:</label>
+            <input type="text" id="saasUsername" placeholder="Your login email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="saasPassword">Password:</label>
+            <input type="password" id="saasPassword" placeholder="Your password" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="prompt">Describe what you want to do:</label>
+            <textarea id="prompt" placeholder="Example: Run a campaign emailing pizza shops in Chicago with a 20% discount offer" required></textarea>
+        </div>
+        
+        <button id="runButton" onclick="runCampaign()">Run Campaign</button>
+        
+        <div id="status"></div>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        async function runCampaign() {
+            const prompt = document.getElementById('prompt').value;
+            const saasUrl = document.getElementById('saasUrl').value;
+            const saasUsername = document.getElementById('saasUsername').value;
+            const saasPassword = document.getElementById('saasPassword').value;
+            
+            if (!prompt || !saasUrl || !saasUsername || !saasPassword) {
+                alert('Please fill in all fields');
+                return;
+            }
+            
+            const statusDiv = document.getElementById('status');
+            const resultsDiv = document.getElementById('results');
+            const runButton = document.getElementById('runButton');
+            
+            // Update UI
+            statusDiv.textContent = 'Running your campaign... This may take a few minutes. Please don\'t close this window.';
+            statusDiv.className = 'status-running';
+            resultsDiv.style.display = 'none';
+            runButton.disabled = true;
+            
+            try {
+                const response = await fetch('/run-campaign', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        prompt,
+                        saasUrl,
+                        saasUsername,
+                        saasPassword
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    statusDiv.textContent = 'Campaign completed successfully!';
+                    statusDiv.className = 'status-success';
+                    
+                    // Display results
+                    resultsDiv.innerHTML = '<h3>Results:</h3>';
+                    if (data.details && data.details.length > 0) {
+                        const list = document.createElement('div');
+                        data.details.forEach(item => {
+                            const stepDiv = document.createElement('div');
+                            stepDiv.className = `step-item step-${item.status}`;
+                            stepDiv.textContent = `${item.step.action} ${item.step.selector} ${item.step.value ? '(value: ' + item.step.value + ')' : ''} - ${item.status}`;
+                            if (item.message) {
+                                const messageDiv = document.createElement('div');
+                                messageDiv.textContent = `Error: ${item.message}`;
+                                stepDiv.appendChild(messageDiv);
+                            }
+                            list.appendChild(stepDiv);
+                        });
+                        resultsDiv.appendChild(list);
+                    } else {
+                        resultsDiv.innerHTML += '<p>No detailed results available</p>';
+                    }
+                    resultsDiv.style.display = 'block';
+                } else {
+                    statusDiv.textContent = `Error: ${data.message}`;
+                    statusDiv.className = 'status-error';
+                    
+                    if (data.error) {
+                        const errorDiv = document.createElement('div');
+                        errorDiv.textContent = data.error;
+                        statusDiv.appendChild(errorDiv);
+                    }
+                }
+            } catch (error) {
+                statusDiv.textContent = `Error: ${error.message}`;
+                statusDiv.className = 'status-error';
+            } finally {
+                runButton.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

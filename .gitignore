@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Screenshots
+screenshots/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
